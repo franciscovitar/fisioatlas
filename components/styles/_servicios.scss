@@ -1,0 +1,108 @@
+.contenedor-principal-PE {
+    // width: 80%;
+    text-align: center;
+    margin: 0px auto 0 auto;
+    padding: 130px 200px;
+    background: #f0f0f0;
+
+
+    @media(max-width: 1500px) {
+
+        padding: 130px 150px;
+
+    }
+
+    @media(max-width: 1300px) {
+
+        padding: 130px 100px;
+
+    }
+
+
+    @media(max-width: 500px) {
+        padding: 130px 20px;
+
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 36px;
+        font-weight: 800;
+        color: rgb(17, 24, 39);
+    }
+
+    .description {
+        // color: #20ADB2;
+        font-size: 1.5rem;
+    }
+
+    button {
+        color: #fff;
+        background-color: #20ADB2;
+        font-size: 1.1rem;
+        padding: 10px 20px;
+        border-radius: 30px;
+        border: none;
+    }
+
+    .contenedor-especialidades {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 40px 0;
+        justify-content: center;
+
+        a {
+            text-decoration: none;
+        }
+
+        .especialidad {
+            width: 30%;
+            margin: 10px;
+            // height: 350px;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            // border: 1px solid #e7eBeE;
+            border: 2px solid #20ADB2;
+            box-shadow: 1px 1px 20px #11111161;
+            border-radius: 5px;
+            background-color: #ffffff;
+            transition: scale 1s ease;
+
+            @media(max-width: 1300px) {
+
+                width: 45%;
+
+            }
+
+            @media(max-width: 900px) {
+
+                width: 100%;
+
+            }
+
+            h3 {
+                font-size: 1.5rem;
+                color: #20ADB2;
+            }
+
+            p {
+                font-size: 1.2rem;
+                color: #474B4E;
+            }
+
+            &:hover {
+                transition: scale 0.5s ease;
+                scale: 1.03;
+            }
+
+            .material-symbols-outlined {
+                color: #20ADB2;
+                font-size: 2rem;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}

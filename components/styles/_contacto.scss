@@ -1,0 +1,87 @@
+$Rosa_principal: #FF6B98;
+
+.line {
+    background-color: #20ADB2;
+    height: 1px;
+    margin: auto;
+    width: 100px;
+}
+
+.contacto-container {
+
+    padding: 100px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media (max-width: 1000px) {
+        // height: 65vh;
+    }
+
+    .contacto {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        color: #000000;
+        gap: 50px;
+
+
+        div {
+
+            @media (max-width: 1000px) {
+                width: 90%;
+                height: auto;
+            }
+
+            div {
+                margin: auto;
+
+                .logo {
+                    width: 200px;
+                    height: 100px;
+
+                    @media (max-height: 750px) {
+                        display: none;
+                    }
+                }
+            }
+
+
+
+            p {
+                font-weight: 500;
+                font-size: 18px;
+
+                @media (max-width: 1000px) {
+                    font-size: 16px;
+                }
+            }
+
+            .iconos {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+                height: 30px;
+
+                @media (max-width: 1000px) {
+                    margin: auto;
+                    font-size: 18px;
+                }
+
+                i {
+                    color: #20ADB2;
+                    font-size: 25px;
+
+                    &:hover {
+                        color: #000000;
+                    }
+                }
+            }
+        }
+    }
+}

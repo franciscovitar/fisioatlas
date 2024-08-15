@@ -1,0 +1,193 @@
+$Violeta4: #FFB6C1;
+
+.HomeWelcome-container {
+    background-image: url("../../Image/Welcome.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 90vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @supports (-webkit-touch-callout: none) {
+        background-attachment: scroll;
+    }
+
+    @supports not (-webkit-touch-callout: none) {
+        background-attachment: fixed;
+    }
+
+    // @media (max-height: 500px) {
+    //     height: 100vh;
+    // }
+
+    &::before {
+        content: "";
+        position: absolute;
+        background-color: hsla(0, 0%, 0%, 0.267);
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .container {
+        margin-top: 70px;
+        position: relative;
+        color: #fff;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @media (max-width: 800px) {
+            width: 90%;
+        }
+
+        @media (max-width: 500px) {
+            width: 100%;
+            padding: 20px;
+        }
+
+
+        h1 {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 70px;
+            font-weight: 700;
+            text-align: center;
+
+            @media (max-width: 600px) {
+                font-size: 30px;
+            }
+        }
+
+        h4 {
+            text-align: center;
+            font-weight: 400;
+            font-size: 30px;
+            margin: 25px 0;
+
+            @media (max-width: 500px) {
+                font-size: 18px;
+            }
+        }
+
+
+        .botones {
+            margin-top: 20px;
+            display: flex;
+            gap: 40px;
+
+            a:first-child {
+                border: solid 2px #ffffff;
+                background-color: #20ADB2;
+                text-decoration: none;
+                color: #ffffff;
+                font-weight: 600;
+                font-size: 18px;
+                padding: 13px 30px;
+                border-radius: 20px;
+                cursor: pointer;
+
+                @media (max-width: 800px) {
+                    padding: 10px 12px;
+                    font-size: 13px;
+                }
+
+                &:hover {
+                    transition: all 0.2s;
+                    background-color: rgb(255, 255, 255);
+                    color: #000000;
+                }
+            }
+
+            a:last-child {
+                border: solid 2px #ffffff;
+                cursor: pointer;
+                background-color: #8aceca00;
+                text-decoration: none;
+                color: #ffffff;
+                font-weight: 600;
+                border-radius: 20px;
+                font-size: 18px;
+                padding: 12px 30px;
+
+                @media (max-width: 800px) {
+                    padding: 10px 12px;
+                    font-size: 13px;
+                }
+
+                &:hover {
+                    transition: all 0.2s;
+                    background-color: rgb(255, 255, 255);
+                    color: #000000;
+                }
+            }
+        }
+
+        button {
+            cursor: pointer;
+            background: #20ADB2;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-size: 16px;
+            font-weight: 600;
+            margin-left: 10px;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 20px;
+
+            &:hover {
+                background: #26ccd1;
+                color: rgb(255, 255, 255);
+            }
+
+            @media(max-width: 480px) {
+                font-size: 14px;
+                padding: 13px 20px;
+            }
+        }
+
+        h2 {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 70px;
+            font-weight: 700;
+            text-align: center;
+
+            @media (max-width: 600px) {
+                font-size: 30px;
+            }
+
+        }
+
+        p {
+            text-align: center;
+            margin-top: 20px;
+            font-weight: 500;
+            font-size: 20px;
+            color: rgb(255, 255, 255);
+            padding: 0 10px;
+
+            @media(max-width: 1000px) {
+                font-size: 15px;
+
+            }
+        }
+
+        input {
+            margin-top: 20px;
+            border-radius: 20px;
+            outline: none;
+            padding: 10px 15px;
+            background-color: #ffffff;
+            color: #000000;
+            border: solid 2px #fff;
+
+        }
+    }
+}
