@@ -220,7 +220,7 @@ function Reseñas() {
         ))}
       </Slider>
       <a href="https://api.whatsapp.com/send/?phone=5491123873039">
-        <motion.button className="boton">Quiero probarlo!</motion.button>
+        <motion.button className="boton">¡Contactanos!</motion.button>
       </a>
     </div>
   );

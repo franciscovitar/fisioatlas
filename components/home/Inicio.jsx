@@ -26,8 +26,10 @@ function HomeWelcome() {
   return (
     <div id="inicio" className="HomeWelcome-container">
       <div className="container">
-        <motion.h1 {...textVariants}>Fisio Atlas</motion.h1>
-        {/* <motion.h4 {...textVariants}> 𝑷𝒍𝒂𝒕𝒂𝒇𝒐𝒓𝒎𝒂 𝒆𝒅𝒖𝒄𝒂𝒕𝒊𝒗𝒂 </motion.h4> */}
+        <motion.h1 {...textVariants}>Fisio Atlas - Lomas de Zamora</motion.h1>
+        <motion.h4 {...textVariants}>
+          Especialistas en cuidar tu cuerpo con tratamientos personalizados
+        </motion.h4>
         <div className="botones">
           <motion.a
             title="cursos"
@@ -38,7 +40,7 @@ function HomeWelcome() {
             Sacar turno
           </motion.a>
           <motion.a href="#nosotros" {...linkVariants}>
-            ¿Quienes somos?
+            ¿Quiénes somos?
           </motion.a>
         </div>
       </div>

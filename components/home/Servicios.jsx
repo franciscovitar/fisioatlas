@@ -25,7 +25,7 @@ function Servicios() {
       >
         Servicios
       </motion.h2>
-      <motion.p
+      {/* <motion.p
         className="description"
         viewport={{ once: true }}
         initial={{ opacity: 0, y: 50 }}
@@ -36,7 +36,7 @@ function Servicios() {
         }}
       >
         La mejor elección para tu proyecto de diseño y construcción
-      </motion.p>
+      </motion.p> */}
       <div className="contenedor-especialidades">
         <motion.div
           className="especialidad"

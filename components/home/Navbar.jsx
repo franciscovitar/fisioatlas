@@ -39,7 +39,10 @@ function Navbar() {
   return (
     <nav className={`${navbar ? "sinfondo" : "fondo"}`}>
       <motion.div {...imageVariants} className="left">
-        <Image src={Logo} />
+        <a href="./">
+          {" "}
+          <Image src={Logo} />
+        </a>
       </motion.div>
       <motion.div {...imageVariants} className="center">
         <a href="#inicio">Inicio</a>
@@ -47,14 +50,9 @@ function Navbar() {
         <a href="#servicios">Servicios</a>
         <a href="#coberturas">Obras sociales</a>
         <a href="#opiniones">Reseñas</a>
-        <a href="#contacto">Contacto</a>
       </motion.div>
       <motion.div {...imageVariants} className="right">
-        <a
-          target="blank"
-          href="https://api.whatsapp.com/send/?phone=5493515556592"
-          className="contacto"
-        >
+        <a href="#contacto" className="contacto">
           Contacto
         </a>
         <i

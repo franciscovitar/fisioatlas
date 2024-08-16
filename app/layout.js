@@ -11,20 +11,20 @@ const inter = Quicksand({
 });
 
 export const metadata = {
-  title: "Servicio Técnico para MODO - Tu Billetera Virtual",
+  title: "Fisioatlas | Centro de Kinesiología en Lomas de Zamora",
   description:
-    "Ofrecemos soporte técnico especializado para usuarios de MODO, la billetera virtual líder en Argentina. Ayudamos con la configuración, uso y resolución de problemas de la app.",
+    "Fisioatlas es un centro de kinesiología en Lomas de Zamora especializado en Kinesiología Deportiva, Reeducación Postural Global (RPG), Osteopatía, y Stretching Global Activo (SGA). Ofrecemos tratamientos personalizados para prevenir lesiones, mejorar el rendimiento deportivo y promover el bienestar integral.",
   keywords: [
-    "MODO",
-    "billetera virtual",
-    "servicio técnico MODO",
-    "soporte MODO",
-    "bancos Argentina",
-    "pagos móviles",
-    "fintech Argentina",
-    "asistencia MODO",
-    "configuración MODO",
-    "resolución problemas MODO",
+    "Fisioatlas",
+    "kinesiología Lomas de Zamora",
+    "Kinesiología Deportiva",
+    "Reeducación Postural Global",
+    "Osteopatía",
+    "Stretching Global Activo",
+    "bienestar físico",
+    "tratamientos personalizados",
+    "prevención de lesiones",
+    "rendimiento deportivo",
   ],
 };
 

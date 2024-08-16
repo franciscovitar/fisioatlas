@@ -4,12 +4,9 @@ import React from "react";
 import "../styles/_obrasSociales.scss";
 import Image from "next/image";
 import Galeno from "../../Image/galeno.png";
-import Ioma from "../../Image/ioma.jpeg";
-import Omint from "../../Image/omint.png";
+
 import Osde from "../../Image/osde.png";
-import Osdepym from "../../Image/osdepym.jpeg";
-import Osmecon from "../../Image/osmecon.jpeg";
-import Pami from "../../Image/pami.png";
+
 import Sancor from "../../Image/sancor.png";
 import Swiss from "../../Image/swiss_medical.png";
 

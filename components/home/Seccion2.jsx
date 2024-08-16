@@ -24,12 +24,13 @@ function Seccion2() {
         <div className="texto">
           <h3>¿Quiénes somos?</h3>
           <p>
-            ¿Necesitas ayuda con MODO? Estamos aquí para asistirte. Ya sea que
-            estés teniendo problemas para iniciar sesión, configurar tu cuenta,
-            o simplemente tengas preguntas sobre las funcionalidades de la
-            aplicación, nuestro equipo de expertos está listo para ofrecerte el
-            soporte que necesitas. Visita nuestra sección de ayuda para acceder
-            a guías detalladas y soluciones rápidas a los problemas más comunes.
+            En Fisioatlas, ubicado en Lomas de Zamora, somos un equipo de
+            profesionales dedicados a mejorar tu bienestar físico. Nos
+            especializamos en Kinesiología Deportiva, Reeducación Postural
+            Global, Osteopatía, Stretching Global Activo y Kinesiología
+            Integral. Con un enfoque personalizado y técnicas avanzadas, te
+            ayudamos a prevenir lesiones, optimizar tu rendimiento y alcanzar un
+            bienestar integral. ¡Conocé cómo podemos ayudarte a vivir sin dolor!{" "}
           </p>
           <a href="#servicios">Servicios</a>
         </div>

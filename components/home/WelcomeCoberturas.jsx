@@ -32,15 +32,15 @@ function WelcomeCoberturas({ setSearchTerm, searchTerm }) {
     <div id="inicio" className="HomeWelcome-container">
       <div className="container">
         <motion.h2 {...textVariants}>OBRAS SOCIALES</motion.h2>
-        <motion.p {...textVariants}>
-          Atendemos más de 50 obras sociales
-        </motion.p>
-        <div>
+        <motion.h4 {...textVariants}>
+          Atendemos más de 40 obras sociales
+        </motion.h4>
+        <div className="buscador">
           {" "}
           <motion.input
             {...textVariants}
             type="text"
-            placeholder="Buscar..."
+            placeholder="Obra social..."
             value={coberturas}
             onChange={(e) => getCoberturas(e.target.value)}
           />
